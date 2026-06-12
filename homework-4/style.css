@@ -44,3 +44,9 @@ textarea{
 .agreement{
     margin-bottom: 8px;
 }
+.label{
+    cursor: pointer
+}
+#agree{
+    cursor: pointer;
+}
