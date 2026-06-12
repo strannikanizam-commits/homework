@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="forma">
+        <fieldset class="user-data">
+            <legend>Ваши личные данные</legend>
+
+            <label for="us-name">Ваше имя</label>
+            <input type="name"
+            id="us-name"
+            name="name"
+            placeholder="Введите имя"
+            required>
+
+            <label for="age">Ваш возраст</label>
+            <input type="number"
+            id="age"
+            name="age"
+            placeholder="Возраст"
+            required>
+
+            <label for="telephone">Телефон</label>
+            <input type="tel"
+            id="telephone"
+            name="telephone"
+            placeholder="Ваш номер"
+            required>
+
+            <label for="email">Ваша почта</label>
+            <input type="email"
+            id="email"
+            name="email"
+            placeholder="Введите почту"
+            required>
+
+            <label for="massage">Сообщение</label>
+            <textarea name="massage" id="massage"></textarea>
+
+        </fieldset>
+        <fieldset class="agreement">
+
+            <label class="label">
+                <input type="checkbox" id="agree" required>
+                Я согласен с <a href="#">политикой</a>
+            </label>
+
+        </fieldset>
+        <button>ОТПРАВИТЬ</button>
+    </form>
+</body>
+</html>
