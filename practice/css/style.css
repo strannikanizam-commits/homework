@@ -1,0 +1,51 @@
+html {
+    font-family: Ubuntu, sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    max-width: 1250px;
+    padding: 0px 15px 0 15px;
+    margin: 0 auto;
+}
+
+.header-container{
+    min-height: 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #D3CBD9;
+}
+
+
+.block-telephone{
+    min-width: 240px;
+    min-height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.block-telephone__text{
+    font-weight: 300;
+    font-size: 14px;
+    color: #858E8A;
+    margin: 0 0 8px 0;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+.block-telephone__tel{
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: #2C332F;
+
+}
+
+
+
